@@ -1,0 +1,1 @@
+Example photography website using flexbox
