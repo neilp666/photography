@@ -32,11 +32,11 @@ header h1 {
   width: 64px;
 
 }
-
+/* 
 header nav {
   /* float: right; */
   /* margin-top: 20px; */
-}
+/* } */ 
 
 header nav a {
   margin-right: 10px;
@@ -63,6 +63,17 @@ header nav a {
   /* display: inline-block; */
   width: 300px;
   margin: 10px;
+  /* position relative on the parent photo element. Overlay will be positioned in relation */
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000
 }
 
 .small {
