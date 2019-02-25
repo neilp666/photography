@@ -45,8 +45,23 @@ header nav a {
   padding-bottom: 3px;
 }
 
+.photos {
+  text-align: center;
+  max-width: 1080px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .photo {
   display: inline-block;
   width: 300px;
   margin: 10px;
+}
+
+.small {
+  width: 220px;
+}
+
+.large {
+  width: 400px;
 }
