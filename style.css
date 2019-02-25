@@ -65,3 +65,22 @@ header nav a {
 .large {
   width: 400px;
 }
+
+footer {
+  overflow: hidden;
+  padding: 20px;
+}
+
+footer p {
+  float: left;
+}
+
+footer nav {
+  float: right;
+}
+
+footer a {
+  width: 16px;
+  margin-left: 5px;
+  display: inline-block;
+}
