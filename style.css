@@ -81,6 +81,14 @@ header nav a {
   opacity: 1;
 }
 
+.photo h2 {
+  position: absolute;
+  left: -15px;
+  top: -15px;
+  font-size: 32px;
+  line-height: 1.2;
+}
+
 .small {
   width: 220px;
 }
