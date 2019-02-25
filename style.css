@@ -49,14 +49,18 @@ header nav a {
 }
 
 .photos {
-  text-align: center;
-  max-width: 1080px;
+  /* text-align: center; */
+  max-width: 960x;
   margin-left: auto;
   margin-right: auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: flex-end;
 }
 
 .photo {
-  display: inline-block;
+  /* display: inline-block; */
   width: 300px;
   margin: 10px;
 }
