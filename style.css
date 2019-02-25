@@ -32,4 +32,15 @@ header h1 {
 
 header nav {
   float: right;
+  margin-top: 20px;
+}
+
+header nav a {
+  margin-right: 10px;
+  border-top: 10px;
+}
+
+.selected {
+  border-bottom: solid 2px #fff;
+  padding-bottom: 3px;
 }
