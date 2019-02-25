@@ -44,3 +44,9 @@ header nav a {
   border-bottom: solid 2px #fff;
   padding-bottom: 3px;
 }
+
+.photo {
+  display: inline-block;
+  width: 300px;
+  margin: 10px;
+}
