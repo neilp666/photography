@@ -16,23 +16,26 @@ a {
 }
 
 header {
-  overflow: hidden;
+  /* overflow: hidden; */
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 header h1 {
-  float: left;
+  /* float: left; */
   width: 64px;
 
 }
 
 header nav {
-  float: right;
-  margin-top: 20px;
+  /* float: right; */
+  /* margin-top: 20px; */
 }
 
 header nav a {
