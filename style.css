@@ -38,7 +38,7 @@ header h1 {
 
 header nav a {
   margin-left: 10px;
-  transition: border 0.3s ease-in;
+  transition: border 0.3s 1s ease-in;
   border-bottom: solid 2px rgba(0, 0, 0, 0);
   padding-bottom: 3px;
 }
@@ -82,6 +82,15 @@ header nav a.selected {
   background-color: rgba(0, 0, 0, 0.7);
   opacity: 0;
   transition: opacity 0.3s;
+  z-index: 2;
+}
+
+.photo img {
+  transition: filter 0.3s;
+}
+
+.photo:hover img {
+  filter: grayscale(100%);
 }
 
 .photo:hover .overlay {
