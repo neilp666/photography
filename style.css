@@ -134,6 +134,9 @@ footer a {
   left: 50%;
   transform: translate(-50%, -50%);
   max-width: 500px;
+  /* ignore any default mouse */
+  pointer-events: none;
+  transition: opacity 0.3s;
 }
 
 .list {
@@ -148,4 +151,12 @@ footer a {
 /* Add pseudo code element */
 .list a:after {
   content: '/';
+}
+
+.list a:last-child:after {
+  content: '';
+}
+
+.list a:hover img {
+  opacity: 1;
 }
