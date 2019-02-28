@@ -25,6 +25,9 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  /* control order of elements */
+  z-index: 2;
 }
 
 header h1 {
@@ -53,6 +56,8 @@ header nav a {
   max-width: 960x;
   margin-left: auto;
   margin-right: auto;
+  padding-left: 10px;
+  padding-right: 10px;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -99,20 +104,15 @@ header nav a {
 }
 
 footer {
-  overflow: hidden;
   padding: 20px;
+  display: flex;
+  justify-content: space-between;
 }
 
-footer p {
-  float: left;
-}
-
-footer nav {
-  float: right;
-}
 
 footer a {
   width: 16px;
   margin-left: 5px;
   display: inline-block;
+  align-items: center;
 }
